@@ -84,7 +84,7 @@ export default application;
       end
 
       def webpacker_configuration_file
-        join("config", "webpacker.yml")
+        join("config", "shakapacker.yml")
       end
 
       def javascript_directory

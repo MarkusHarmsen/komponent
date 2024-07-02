@@ -14,7 +14,7 @@
 
 Each component has its own folder, containing a Ruby module, a partial, a stylesheet and a JavaScript file.
 
-Komponent relies heavily on webpacker to manage dependencies and generate the production JS and CSS files.
+Komponent relies heavily on shakapacker to manage dependencies and generate the production JS and CSS files.
 
 This README examples are written in Slim, but Komponent is compatible with:
 
@@ -56,7 +56,7 @@ This gem has been inspired by our Rails development practices at [Ouvrages](http
 
 - Ruby 2.5+
 - Rails 5.0+
-- Webpacker 3.0.0+
+- shakapacker 8.0.0+
 
 ## Getting started
 
@@ -74,8 +74,8 @@ rails generate komponent:install
 
 This command will:
 
-* check that the dependencies (currently, webpacker) are installed
-* rename the `app/javascript` folder to `frontend` and modify webpacker config accordingly
+* check that the dependencies (currently, shakapacker) are installed
+* rename the `app/javascript` folder to `frontend` and modify shakapacker config accordingly
 * create the `frontend/components` folder where you will put your component
 * create the `frontend/components/index.js` file that will list your components and `import` it in `frontend/packs/application.js`
 
@@ -121,7 +121,7 @@ html
     = javascript_pack_tag 'application'
 ```
 
-Check [Webpacker documentation](https://github.com/rails/webpacker) for further information.
+Check [Shakapacker documentation](https://github.com/shakacode/shakapacker) for further information.
 
 ### Passing variables
 

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'webpacker'
+require 'shakapacker'
 require 'komponent/component_helper'
 require 'komponent/component_path_resolver'
 require 'komponent/component_renderer'
